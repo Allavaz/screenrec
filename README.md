@@ -5,7 +5,7 @@ A minimal macOS screen recorder for the menu bar that captures **system audio** 
 - Entire-screen capture at 60 fps (Retina-aware) with the system's audio output, muxed into an MP4 (H.264 + AAC)
 - Menu bar icon: **left click** to start/stop recording, **right click** for the menu
 - Elapsed-time display while recording
-- Configurable save folder (default `~/Drawer`) and display picker for multi-monitor setups — both persisted between runs
+- Configurable save folder (default `~/Movies`) and display picker for multi-monitor setups — both persisted between runs
 - No dock icon, no windows: lives entirely in the menu bar
 
 ## Requirements

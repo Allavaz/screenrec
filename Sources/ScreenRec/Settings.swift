@@ -5,10 +5,10 @@ enum Settings {
     private static let folderKey = "saveFolderURL"
     private static let displayKey = "displayID"
 
-    /// Default destination: ~/Drawer
+    /// Default destination: ~/Movies
     static var defaultFolder: URL {
         FileManager.default.homeDirectoryForCurrentUser
-            .appendingPathComponent("Drawer", isDirectory: true)
+            .appendingPathComponent("Movies", isDirectory: true)
     }
 
     static var saveFolderURL: URL {
